@@ -4,8 +4,8 @@ const mysql = require('mysql')
 const db = mysql.createConnection({
     host: "localhost",
     port: 3306,
-    user: 'luis',
-    password: 'password-sql',
+    user: 'iot',
+    password: 'iot123456789',
     database: 'events'
 })
 
